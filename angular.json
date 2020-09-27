@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "mac-ng-unit-test"
+    }
+  },
+  "defaultProject": "mac-ng-unit-test",
+  "cli": {
+    "analytics": false
+  }
 }
