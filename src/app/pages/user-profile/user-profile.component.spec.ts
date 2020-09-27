@@ -8,7 +8,7 @@ describe('UserProfileComponent', () => {
   let component: UserProfileComponent;
   let fixture: ComponentFixture<UserProfileComponent>;
 
-  const mockUserService = jasmine.createSpyObj(['getUser']);
+  const mockUserService = jasmine.createSpyObj('mockUserService', ['getUser']);
   mockUserService.getUser.and.returnValue(of({name: 'Mac'}));
 
   beforeEach(async(() => {
